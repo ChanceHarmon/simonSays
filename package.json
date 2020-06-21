@@ -1,0 +1,27 @@
+{
+  "name": "simonSays",
+  "version": "1.0.0",
+  "description": "The goal here is to create Simon Says with no guide or direction. <br>  I want to structure this with no ejs, a server, and mostly a state change based app with JavaScript. <br>  The server will mostly be just loading the main page, but we will incorporate SQL for users and high score.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChanceHarmon/simonSays.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChanceHarmon/simonSays/issues"
+  },
+  "homepage": "https://github.com/ChanceHarmon/simonSays#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.2.1"
+  }
+}

@@ -1,0 +1,25 @@
+body {
+  width: 500px;
+  box-sizing: border-box;
+  display: flex;
+}
+#wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.button{
+  width: 50%;
+  height: 250px;
+}
+#red {
+  background: red;
+}
+#blue {
+  background: blue;
+}
+#green {
+  background: green;
+}
+#yellow {
+  background: yellow;
+}
